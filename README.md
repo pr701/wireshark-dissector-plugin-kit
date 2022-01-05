@@ -1,2 +1,17 @@
-# wireshark-dissector-plugin-kit
- Include and libs necessary for building Wireshark dissector plugin
+# Wireshark Dissector Plugin Kit
+This project contains definitions/macros/typedefinitions and libs (for Windows) necessary for building the dissector out-of-git.
+*It lacks a large part of Wireshark API which is not always required.*
+
+## Installation 
+
+The dissector is bundled as a Wireshark plugin: https://www.wireshark.org/docs/wsug_html_chunked/ChPluginFolders.html
+
+## Notes
+
+A mismatch with the documentation was found, there must be another path for the extension to load correctly:
+
+`Wireshark\plugins\X.X\epan`, where `X.X` version of Wireshark.
+
+## History
+
+The base include header was built by Ivan Djelic <ivan.djelic@parrot.com>, and uses in [libARCommands](https://github.com/Parrot-Developers/libARCommands/tree/master/WiresharkPlugin) project.

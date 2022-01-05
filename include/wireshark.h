@@ -2,8 +2,8 @@
  * Wireshark dissector packets helper header
  *
  * This file contains definitions/macros/typedefs necessary for building
- * the dissector out-of-tree/git. It lacks a large part of Wireshark API which is
- * not currently used in the dissector.
+ * the dissector out-of-tree/git.
+ * It lacks a large part of Wireshark API which is not always required.
  *
  * Author: Ivan Djelic <ivan.djelic@parrot.com>
  * Copyright (C) 2015 Parrot S.A.,
