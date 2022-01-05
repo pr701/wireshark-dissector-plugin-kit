@@ -1,5 +1,5 @@
 # Wireshark Dissector Plugin Kit
-This project contains definitions/macros/typedefinitions and libs (for Windows) necessary for building the dissector out-of-git.
+This project contains definitions/macros/type definitions and libs (for Windows) necessary for building the [dissector](https://www.wireshark.org/docs/wsdg_html_chunked/ChapterDissection.html) out-of-git.
 *It lacks a large part of Wireshark API which is not always required.*
 
 ## Installation 
@@ -10,7 +10,7 @@ The dissector is bundled as a Wireshark plugin: https://www.wireshark.org/docs/w
 
 A mismatch with the documentation was found, there must be another path for the extension to load correctly:
 
-`Wireshark\plugins\X.X\epan`, where `X.X` version of Wireshark.
+`{default_path}\Wireshark\plugins\X.X\epan`, where `X.X` version of Wireshark.
 
 ## History
 
