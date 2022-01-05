@@ -4,7 +4,7 @@ This project contains definitions/macros/type definitions and libs (for Windows)
 
 ## Installation 
 
-The dissector is bundled as a Wireshark plugin: https://www.wireshark.org/docs/wsug_html_chunked/ChPluginFolders.html
+The dissector is bundled as a Wireshark plugin, see [Plugin folders](https://www.wireshark.org/docs/wsug_html_chunked/ChPluginFolders.html).
 
 ## Notes
 
